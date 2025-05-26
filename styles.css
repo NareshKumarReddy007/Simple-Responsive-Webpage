@@ -18,6 +18,7 @@ a{
 }
 .logo h3{
     margin-left: 1%;
+    font-weight: 800;
 }
 .container{
     max-width: 100rem;
@@ -35,9 +36,6 @@ header .container{
     display: flex;
     align-items: center;
     cursor: pointer;
-}
-.logo h3{
-    font-weight: 800;
 }
 .links ul{
     display: flex;
@@ -61,7 +59,7 @@ header .container{
     justify-content: center;
 }
 .container .right{
-    margin-left: 15%;
+    margin-left: 20%;
 }
 #facebook h1{
     text-align: center;
@@ -99,9 +97,12 @@ html{
 }
 footer{
     color: black;
-    text-decoration:none;
-    margin: 10px;
+    text-decoration: none;
+    margin: 1%;
 }
 .foot a{
     color: black;
+}
+.foot ul{
+    list-style: none;
 }
